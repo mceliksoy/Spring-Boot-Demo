@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<contextName>Gui-Service</contextName>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+	<jmxConfigurator/>
+	<logger name="org.example" level="DEBUG"/>
+</configuration>
