@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GuiServiceApplication {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(GuiServiceApplication.class);
+
 	public static void main(String[] args) {
 		LOGGER.debug("The Gui service is running........");
 		SpringApplication.run(GuiServiceApplication.class, args);
